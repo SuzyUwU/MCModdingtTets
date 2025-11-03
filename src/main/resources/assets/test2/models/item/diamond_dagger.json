@@ -1,0 +1,6 @@
+{
+  "parent":"item/handheld",
+  "textures": {
+    "layer0": "test2:item/diamond_dagger"
+  }
+}
