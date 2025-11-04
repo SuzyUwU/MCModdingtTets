@@ -14,9 +14,9 @@ public class CreativeTabs {
     public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab",
             () -> CreativeModeTab.builder()
                     .withTabsBefore(CreativeModeTabs.COMBAT)
-                    .icon(() -> Items.EXAMPLE_ITEM.get().getDefaultInstance())
+                    .icon(() -> Items.DIAMOND_DAGGER.get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
-                        output.accept(Items.EXAMPLE_ITEM.get());
+                        output.accept(Items.DIAMOND_DAGGER.get());
                         output.accept(Items.EXAMPLE_BLOCK_ITEM.get());
                     })
                     .build());
