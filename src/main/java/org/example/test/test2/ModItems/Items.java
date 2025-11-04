@@ -16,6 +16,6 @@ public class Items {
             () -> new Item(new Item.Properties()
                     .food(new FoodProperties.Builder().alwaysEat().nutrition(1).saturationMod(2f).build())));
 
-    public static final RegistryObject<Item> EXAMPLE_BLOCK_ITEM = ITEMS.register("example_block",
+    public static final RegistryObject<Item> EXAMPLE_BLOCK_ITEM = ITEMS.register("yomama",
             () -> new BlockItem(Blocks.EXAMPLE_BLOCK.get(), new Item.Properties()));
 }

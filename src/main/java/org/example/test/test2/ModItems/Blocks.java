@@ -12,6 +12,6 @@ public class Blocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Test2.MODID);
 
-    public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block",
+    public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("yomama",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
 }

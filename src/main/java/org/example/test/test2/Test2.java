@@ -39,7 +39,7 @@ public class Test2 {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        // Optional: add block item to vanilla tab if desired
+
     }
 
     @SubscribeEvent

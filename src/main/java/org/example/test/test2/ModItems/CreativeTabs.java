@@ -15,7 +15,10 @@ public class CreativeTabs {
             () -> CreativeModeTab.builder()
                     .withTabsBefore(CreativeModeTabs.COMBAT)
                     .icon(() -> Items.EXAMPLE_ITEM.get().getDefaultInstance())
-                    .displayItems((parameters, output) -> output.accept(Items.EXAMPLE_ITEM.get()))
+                    .displayItems((parameters, output) -> {
+                        output.accept(Items.EXAMPLE_ITEM.get());
+                        output.accept(Items.EXAMPLE_BLOCK_ITEM.get());
+                    })
                     .build());
 }
 
